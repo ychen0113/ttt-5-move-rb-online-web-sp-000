@@ -3,9 +3,9 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-board = Array.new(9," ")
+var board = Array.new(9," ")
 puts "Welcome to Tic Tac Toe!"
 puts "Which box to choose?"
-input = gets.strip
-index = input_To_Index(input)
+var input = gets.strip
+var index = input_To_Index(input)
 
