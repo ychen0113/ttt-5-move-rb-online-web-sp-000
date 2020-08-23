@@ -7,5 +7,5 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 puts "Which box to choose?"
 input = gets.strip
-index = INPUT_TO_INDEX(input)
+index = input_to_index(input)
 
