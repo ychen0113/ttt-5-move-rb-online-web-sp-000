@@ -5,7 +5,6 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
  board = Array.new(9," ")
 print "Welcome to Tic Tac Toe!"
- "Which box to choose?"
 input = gets.strip
 index = input_to_index(input)
 char = "X"
